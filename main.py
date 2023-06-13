@@ -53,7 +53,7 @@ def open_and_transcript():
 root = tkinter.Tk()
 root.title("Transcript")
 root.geometry("300x300")
-root.configure()
+root.configure(bg='#D6B796')
 btn = ttk.Button(root, text="Choose file", command=lambda:open_and_transcript())
 btn.pack(expand = True)
 root.mainloop()
